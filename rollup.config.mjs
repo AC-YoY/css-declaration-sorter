@@ -12,7 +12,6 @@ export default [
       exports: 'named',
       inlineDynamicImports: true,
       intro: `const stableSort = require('./stable-sort.cjs');`,
-      outro: 'module.exports = cssDeclarationSorter;',
     },
     plugins: [
       replace({
