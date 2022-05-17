@@ -1,13 +1,14 @@
 import { shorthandData } from './shorthand-data.mjs';
 
 const builtInOrders = [
+  'cmexpro',
   'alphabetical',
   'concentric-css',
   'smacss',
 ];
 
-export const cssDeclarationSorter = ({ order = 'alphabetical', keepOverrides = false } = {}) => ({
-  postcssPlugin: 'css-declaration-sorter',
+export const cssDeclarationSorter = ({ order = 'cmexpro', keepOverrides = false } = {}) => ({
+  postcssPlugin: 'css-sorter',
   OnceExit (css) {
     let withKeepOverrides = comparator => comparator;
     if (keepOverrides) {

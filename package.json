@@ -1,6 +1,6 @@
 {
-  "name": "css-declaration-sorter",
-  "version": "6.2.2",
+  "name": "@yoy20/css-sorter",
+  "version": "1.0.0",
   "description": "Sorts CSS declarations fast and automatically in a certain order.",
   "type": "module",
   "main": "./dist/main.cjs",
@@ -42,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Siilwyn/css-declaration-sorter.git"
+    "url": "https://github.com/AC-YoY/css-declaration-sorter"
   },
-  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
+  "author": "ac-yoy",
   "license": "ISC",
   "keywords": [
     "postcss",

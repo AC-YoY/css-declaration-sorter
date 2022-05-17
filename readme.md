@@ -1,3 +1,6 @@
+> forked from [css-declaration-sorter](https://github.com/Siilwyn/css-declaration-sorter/)
+
+
 <img alt='CSS declaration sorter logo' src='https://raw.githubusercontent.com/Siilwyn/css-declaration-sorter/master/logo.svg?sanitize=true' height='260' align='right'>
 
 # CSS Declaration Sorter
